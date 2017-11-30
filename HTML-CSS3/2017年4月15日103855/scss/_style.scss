@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@keyframes shark{
+    0%{
+        margin: 0;
+    }
+    10%{
+        margin: -30px 0 0 -30px;
+    }
+    20%{
+        margin: -30px -30px 0 0;
+    }
+    30%{
+        margin: 0 -30px -30px 0;
+    }
+    40%{
+        margin: 0 0 -30px -30px;
+    }
+    50%{
+        margin: 0 0 -30px -30px;
+    }
+     60%{
+        margin: -10px 0 0 -10px;
+    }
+     70%{
+        margin: -10px -10px 0 0;
+    }
+     80%{
+        margin: 0 -10px -10px 0;
+    }
+     90%{
+        margin: 0 0 -10px -10px;
+    }
+}
+
+#banner{
+    
+    background: url(../img/bg1.jpg) no-repeat center;
+    height: 500px;
+    background-color: #000;
+    color: #fff;
+    .center{
+        text-align: center;
+        padding: 100px 0;
+    }
+    .title{
+        margin-bottom: 80px;
+        p{
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .text{
+            height: 72px;
+//            width: 400px;
+            position: relative;
+            margin: auto;
+            margin-bottom: 20px;
+            opacity: 0;
+            div{
+                background-image: url(../img/text_left.png);
+                width: 200px;
+                height: 72px;
+                position: absolute;
+                &:nth-of-type(2){
+                   background-image: url(../img/text_right.png);
+                    right: 0;
+                    
+                }
+            }
+        }
+    }
+    .btn{
+        a{
+           font-size: 18px;
+            color: #fff;
+            text-decoration: none;
+            background-color: #08c573;
+            width: 100px;
+            display: inline-block;
+            padding: 10px 0px;
+            margin: 15px;
+            &:nth-of-type(2){
+                animation: color 5s infinite;
+            }
+        }
+    }
+}
+
+
+
+@keyframes color{
+    0%{
+        background-color: #84050e;
+    }
+     50%{
+        background-color: #08b573;
+    }
+     100%{
+        background-color: #b60202;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
