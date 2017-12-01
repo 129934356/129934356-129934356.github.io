@@ -3,3 +3,42 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.carousel-inner img{
+    width: 100%;
+    display: block;
+    height: 90vh;
+}
+.navbar{
+    margin: 0px;
+}
+.item div{
+  animation: a 5.4s; 
+}
+.carousel-caption{
+    padding-bottom:15%;
+    font-size:24px;
+    
+}
+ 
+.left,.right,ol{
+    opacity: .0;
+}
+ 
+.left:hover,.right:hover,ol:hover{
+    opacity: .8
+}
+ 
+
+
+@keyframes a{
+    0%{
+        opacity: .0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: .0;
+    }
+}
+ 
