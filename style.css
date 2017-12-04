@@ -3,37 +3,43 @@
     padding: 0px;
     box-sizing: border-box;
 }
+header{
+    transition: 3s;
+}
 .carousel-inner img{
     width: 100%;
     display: block;
     height: 90vh;
 }
+ 
 .navbar{
     margin: 0px;
 }
 .item div{
   animation: a 5.4s; 
 }
-/*
- img{
-  animation: b 2.7s linear infinite;   
-}
-*/
+ 
 .carousel-caption{
     padding-bottom:15%;
     font-size:24px;
     
 }
  
-.left,.right,ol{
+.left,.right{
     opacity: .0;
 }
  
-.left:hover,.right:hover,ol:hover{
-    opacity: .8
+.left:hover,.right:hover{
+    opacity: .8;
 }
  
-
+.t{
+    top:93%;
+    font-size:45px;
+    z-index: 999;
+    animation: b 4s linear infinite; 
+    cursor:pointer;
+}
 
 @keyframes a{
     0%{
@@ -46,18 +52,44 @@
         opacity: .0;
     }
 }
-/*
 @keyframes b{
     0%{
-        opacity: .8;
+        opacity: .0;
+        color: #333;
     }
     50%{
         opacity: 1;
+        color: #999;
     }
     100%{
-        opacity: .8;
+        opacity: .0;
+         color: #333;
     }
-    
 }
-*/
- 
+.about{
+    width: 100%;
+    background-color:#e7e7e7;
+    transition: 3s;
+}
+.about .about-text{
+    width: 55%;
+    text-align: center;
+    padding-top: 66px;
+    padding-bottom: 66px;
+    margin: auto;
+}
+.about .about-text h2{
+    margin: 0px;
+    margin-bottom: 15px;
+}
+.about .about-text .dashed{
+    width: 30%;
+    height: 1px;
+    border-bottom: dashed 2px #999;
+    margin: auto;
+    margin-bottom: 45px;
+}
+.about .about-text p{
+    font-size: 16px;
+}
+
