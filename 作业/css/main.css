@@ -146,6 +146,7 @@ img {
 
 .slide-three .dragon {
   background: url(../img/17.png);
+  filter: alpha(opacity=50);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
@@ -165,6 +166,7 @@ img {
   .slide-three .dragon .bz {
     padding: 15px 15px; }
     .slide-three .dragon .bz img {
+      opacity: 1;
       width: 100%;
       display: block; }
 
@@ -193,3 +195,74 @@ img {
 
 .slide-four .footer-img {
   overflow: hidden; }
+
+.slide-five .top-left {
+  background-image: url(../img/21.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 25%;
+  height: 95px;
+  float: left;
+  margin-top: 15px;
+  margin-right: 15px;
+  text-align: center;
+  padding-top: 28px;
+  font-size: 16px; }
+
+.slide-five .top-right {
+  width: 58%;
+  float: right;
+  margin-right: -25px;
+  display: table;
+  margin-bottom: 20px; }
+
+.slide-five .header {
+  padding-top: 50px;
+  background-image: url(../img/23.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 93%;
+  height: 320px;
+  margin: auto;
+  clear: both; }
+  .slide-five .header input {
+    width: 75%;
+    height: 50px;
+    display: table;
+    margin: auto;
+    margin-bottom: 15px;
+    background: rgba(243, 243, 243, 0.5);
+    border: solid 1px #ddd;
+    border-bottom: solid 1px #333;
+    font-size: 18px;
+    color: #000; }
+  .slide-five .header button {
+    display: table;
+    margin: auto;
+    width: 20%;
+    height: 30px;
+    background-color: #ddd;
+    border: solid 1px #ddd; }
+
+.slide-six .top-img {
+  margin-bottom: 10px; }
+
+.slide-six .header-img {
+  background-image: url(../img/26.png);
+  background-size: 100% 100%;
+  width: 81%;
+  margin: auto;
+  height: 78vh;
+  padding-top: 25px;
+  text-align: center; }
+
+.slide-six .maip {
+  width: 85%;
+  height: 45vh;
+  margin: auto;
+  background-color: red;
+  margin-bottom: 15px; }
+
+.slide-six p {
+  margin-bottom: 5px;
+  font-size: 16px; }

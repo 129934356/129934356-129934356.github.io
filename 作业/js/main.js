@@ -1,6 +1,6 @@
 var mySwiper = new Swiper ('.swiper-container', {
     direction: 'vertical',
-    loop: true,
+    // loop: true,
     navigation: {
         nextEl: '.swiper-button-next',
 
@@ -37,3 +37,19 @@ music.onclick=function (){
         flag=1;
     }
 }
+
+var form = document.querySelector('form');
+function tb(){
+    var name  = document.querySelector(".name");
+    var text = document.querySelector(".text");
+    var e = document.querySelector('.e');
+    if(name.value!=="" && text.value !== "" && e.value!==""){
+       form.submit()
+        return true;
+        alert("提交成功");
+    }else {
+        alert("请填写对应内容");
+    }
+}
+
+
