@@ -262,6 +262,9 @@ img {
   margin: auto;
   background-color: red;
   margin-bottom: 15px; }
+  .slide-six .maip #map {
+    width: 100%;
+    height: 100%; }
 
 .slide-six p {
   margin-bottom: 5px;
