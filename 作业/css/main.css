@@ -48,7 +48,8 @@ body, html {
 
 .swiper-slide {
   background-image: url(../img/1.gif);
-  background-size: 100% 100%; }
+  background-size: 100% 100%;
+  overflow: hidden; }
 
 .header-top {
   margin-bottom: 50px; }
@@ -204,17 +205,17 @@ img {
   height: 95px;
   float: left;
   margin-top: 15px;
-  margin-right: 15px;
+  margin-left: 15px;
   text-align: center;
   padding-top: 28px;
+  padding-left: 8px;
   font-size: 16px; }
 
 .slide-five .top-right {
   width: 58%;
   float: right;
   margin-right: -25px;
-  display: table;
-  margin-bottom: 20px; }
+  display: table; }
 
 .slide-five .header {
   padding-top: 50px;
@@ -224,7 +225,8 @@ img {
   width: 93%;
   height: 320px;
   margin: auto;
-  clear: both; }
+  clear: both;
+  margin-bottom: 30px; }
   .slide-five .header input {
     width: 75%;
     height: 50px;
@@ -232,15 +234,18 @@ img {
     margin: auto;
     margin-bottom: 15px;
     background: rgba(243, 243, 243, 0.5);
-    border: solid 1px #ddd;
-    border-bottom: solid 1px #333;
+    border: solid 0px #ddd;
+    border-bottom: solid 2px #999;
     font-size: 18px;
     color: #000; }
+  .slide-five .header input::-webkit-input-placeholder {
+    padding-left: 15px; }
   .slide-five .header button {
     display: table;
     margin: auto;
     width: 20%;
     height: 30px;
+    color: #777;
     background-color: #ddd;
     border: solid 1px #ddd; }
 
