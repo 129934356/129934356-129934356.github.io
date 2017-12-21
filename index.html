@@ -79,12 +79,123 @@
             <div class="about-text" id="about-text">
                 <h2>一个关于我的介绍</h2>
                 <div class="dashed"></div>
-                <p> 这是一个关于我的学习内容的网站，里面包含了各个学科所学习到的相关内容，以及我个人的一个个人博客页面， </p>
+                <p> 这是一个关于我的学习内容的网站，里面包含了各个学科所学习到的相关内容，以及我个人的一个个人博客页面，将为大家展示很多优美炫酷的网页与特效 </p>
+            </div>
+        </div>
+        <div class="main-show">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 h"><img src="img/1.png" alt=""></div>
+                    <div class="col-xs-12 col-md-6 h">
+                    <div class="red">
+                         <h4>瀑布流的代码展示</h4>
+                    <div class="solid"></div>
+                    <p>    
+                                     function checkFlag() {
+            var cc = document.getElementById("container");
+            var content = getChildElement(cc, "box");
+            var lastContentHeight = content[content.length - 1].offsetTop; //最后一张图片距顶部的距离
+            console.log(lastContentHeight);
+            var scrollTop = document.documentElement.scrollTop || document.body.scrollTop; //浏览器滚动的高度
+            //    console.log(scrollTop);
+            var pageHeight = document.documentElement.clientHeight || document.body.clientHeight; //当前页面的高度
+            //    console.log(pageHeight);
+            if (lastContentHeight < scrollTop + pageHeight) {
+                return true;
+            }
+        }
+                
+                   </p>
+                    <a href="../129934356.github.io/js/pu/index.html">
+                        了解更多>>
+                    </a> 
+                    </div>
+                  
+                    </div>
+                </div>
+                   <div class="row">
+                    <div class="col-xs-12 col-md-6 h">
+                    <div class="red">
+                    <h4>风车卡牌的代码展示</h4>
+                    <div class="solid"></div>
+                    <p>
+                        var li = document.querySelectorAll("#nav li");
+    var o = true;
+    li[li.length - 1].onclick = function () {
+        for (var i = 0; i < li.length; i++) {
+            var n = i - li.length / 2;
+            if (o) {
+                n = n * 15;
+            } else {
+                n = 360;
+            }
+            li[i].style.transform = "rotate(" + n + "deg)";
+        }
+        o = !o;
+    }
+
+    for (var i = 0; i < li.length - 1; i++) {
+        li[i].index = i;
+        li[i].onclick = function () {
+            //让当前点击的那个元素，旋转至0度
+            this.style.transform = 'rotate(0deg)';
+            //左边的依次旋转
+       
+                    </p>
+                    <a href="../129934356.github.io/js/feng/index.html">
+                        了解更多>>
+                    </a>
+                    </div>
+                  
+                    </div>
+                    <div class="col-xs-12 col-md-6 h"><img src="img/2.png" alt=""></div>
+            
+                </div>
+            </div>
+        </div>
+        <div class="main-shou-two">
+            <div class="container">
+               <h3>网页展示</h3>
+               <div class="solid-b"></div>
+                <div class="row mb">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="gray">
+                            <a href="../129934356.github.io/practice/heng/1.html"><img src="img/4.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                         <div class="gray">
+                           <a href="../129934356.github.io/practice/Laravel/index.html"><img src="img/5.png" alt=""></a> 
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                         <div class="gray">
+                            <a href="../129934356.github.io/practice/home/index.html"><img src="img/6.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="gray">
+                            <a href="../129934356.github.io/SummerHomework/index.html"><img src="img/3.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                         <div class="gray">
+                            <a href="../129934356.github.io/practice/fabiao/index.html"><img src="img/8.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                         <div class="gray">
+                            <a href="../129934356.github.io/Swiper/index.html"><img src="img/9.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!--            尾部-->
-    <footer> </footer>
+    <div class="footer"></div>
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
