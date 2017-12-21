@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #f8f8f8;
+    border-bottom: solid 1px #eee;
+    width: 450px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.logo img {
+    display: table;
+    margin: auto;
+    margin-bottom: 23px;
+}
+
+.logo .baidu {
+    margin: auto;
+}
+
+.logo .baidu input {
+    width: 308px;
+    height: 60px;
+    float: left;
+}
+
+.logo .baidu button {
+    border: none;
+    float: left;
+    width: 102px;
+    height: 60px;
+    font-size: 18px;
+    background-color: #3388ff;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+}
+
+#header-footer {
+    margin-bottom: 10px;
+}
+
+#for {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.cde {
+    color: #999999;
+    margin-top: 10px;
+}
+
+.e{
+    padding-top:15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.e h2{
+    margin-bottom: 5px;
+}
+.main{
+    background-color: #fff;
+}
+.e .edg {
+    width: 100%;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    position: relative;
+   
+}
+.edg img{
+    display:block;
+    width: 100%;
+
+}
+.i {
+    border: 1px solid #f13f40;
+    color: #f13f40;
+    padding: 0 3px;
+    border-radius: 3px;
+}
+
+.jh {
+    border: 1px solid #fff;
+    width: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    left: 50%;
+    margin-left: -5px;
+    font-size: 20px;
+}
+
+.tr {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #ccc;
+    font-size: 12px;
+}
+.left{
+    width: 40%;
+    float: left;
+}

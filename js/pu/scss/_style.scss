@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+}
+.box{
+    float: left;
+    padding: 5px;
+    img{
+        width: 300px;
+        height: auto;
+        padding: 5px;
+        box-shadow: 0 0 5px #666;//阴影
+        border: 1px solid #999;
+    }
+}
