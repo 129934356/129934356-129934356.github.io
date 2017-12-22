@@ -1,79 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c9334d9-e7dd-48a2-9cbd-aa7f12f6b0f6" name="默认的" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/作业/.idea/.name" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/.idea/encodings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/.idea/start.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/.idea/watcherTasks.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/bower.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/css/main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/css/main.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/dist/animate.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/dist/css/swiper.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/dist/css/swiper.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/dist/js/swiper.esm.bundle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/dist/js/swiper.esm.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/dist/js/swiper.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/dist/js/swiper.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/dist/js/swiper.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/dist/swiper.animate1.0.2.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/gulpfile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/gulptask.lnk" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/15.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/15.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/16.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/17.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/17.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/19.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/20.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/21.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/22.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/23.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/24.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/25.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/26.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/27.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/4.psd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/8.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/music.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/music_off.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/swiper_button_004.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/１１.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/１２.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/１３.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/img/１４.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/js/main.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/js/script.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/music/K. Williams - 夜的钢琴曲.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/scss/_style.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/scss/common/_global.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/scss/common/_initialization.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/scss/common/_normalize.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/scss/common/_reset.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/scss/common/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/scss/layouts/_content.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/scss/layouts/_footer.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/scss/layouts/_more.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/scss/layouts/_nav.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/作业/scss/scss.scss" afterPath="" />
-    </list>
+    <list default="true" id="5c9334d9-e7dd-48a2-9cbd-aa7f12f6b0f6" name="默认的" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +14,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="660">
               <caret line="30" column="113" lean-forward="true" selection-start-line="30" selection-start-column="113" selection-end-line="30" selection-end-column="113" />
               <folding />
             </state>
@@ -122,7 +50,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="167" />
     <option name="y" value="61" />
     <option name="width" value="1200" />
@@ -157,15 +85,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513826145715</updated>
-      <workItem from="1513826151549" duration="611000" />
+      <workItem from="1513826151549" duration="1056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="611000" />
+    <option name="totallyTimeSpent" value="1056000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -211,7 +139,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="660">
           <caret line="30" column="113" lean-forward="true" selection-start-line="30" selection-start-column="113" selection-end-line="30" selection-end-column="113" />
           <folding />
         </state>
