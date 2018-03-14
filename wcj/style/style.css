@@ -1,0 +1,342 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.swiper-slide{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.Home-page{
+    background: url(../img/10.png) no-repeat 1px  0px ;
+    -webkit-background-size: 100%;
+    background-size: 111%;
+    width: 100%;
+    height: 100%;
+}
+.h-d,.h-d2,img{
+    display: table;
+}
+.h-d{
+    position: absolute;
+    top: 5px;
+    left:36%;
+}
+.h-d2{
+    position: absolute;
+    top: 40px;
+    left:40%;
+}
+.h-from{
+    position: absolute;
+    top: 49px;
+    left:51%;
+}
+.h-zero{
+    position: absolute;
+    top: 88px;
+    left:38%;
+}
+.h-open{
+    position: absolute;
+    top: 132px;
+    left:51%;
+}
+.h-beg{
+    position: absolute;
+    top: 190px;
+    left:48%;
+}
+.h-z{
+    position: absolute;
+    left: 43%;
+    top:163px;
+}
+.h-z img{
+    float: right;
+}
+.po{
+    position: absolute;
+    top:50%;
+}
+.swiper-slide{
+    overflow: hidden;
+}
+.swiper-pagination-bullet-active {
+    background: #666; }
+/*.h-frame{*/
+    /*!*background-image: url(../img/8.png);*!*/
+    /*!*width: 124px;*!*/
+    /*!*height: 210px;*!*/
+    /*position: absolute;*/
+    /*bottom:7%;*/
+    /*left:29%;*/
+/*}*/
+.rotate {
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width:24px;
+    margin-top: -40px;
+    margin-left: -12px;
+    animation: b 1.5s infinite linear;
+    color: silver; }
+@keyframes b {
+    from {
+        opacity: .8;
+        margin-top: -40px; }
+    to {
+        opacity: .0;
+        margin-top: -60px; } }
+.s-header{
+    display: table;
+    margin: auto;
+    position: relative;
+}
+.s-header img{
+    float: left;
+    margin-top:40px;
+    display: block;
+}
+.s-img1{
+    position: absolute;
+    left:-12% ;
+}
+.s-img2{
+    position: relative;
+    left:37% ;
+}
+.s-img3{
+    position: relative;
+    left: 15%;
+    top:15px;
+}
+.s-list{
+    display: table;
+    margin-top:11%;
+    margin-left:24%;
+}
+.s-list img{
+    float: left;
+    margin-right: 20px;
+}
+.s-list ul{
+    float: left;
+    list-style: none;
+
+}
+.s-list ul li{
+    font-size:18px;
+    padding-top: 8px;
+    margin-bottom: 32px;
+}
+.s-foot{
+    position: absolute;
+    bottom: -105px;
+    right: 0;
+    left: 0;
+
+}
+.s-foot img{
+    width: 100%;
+}
+.i-tu{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+.i-tu img{
+    width: 100%;
+    display: block;
+    margin-bottom:7%;
+}
+.i-tu p{
+    font-size: 14px;
+    color: #aaa;
+}
+.i-tu .i img{
+    width: 60px;
+}
+.i-tu p:nth-of-type(2){
+    margin-bottom: 15px;
+}
+.i-tu p img{
+    width: 20px;
+    display: inline-block;
+}
+.i-tu p{
+    display: block;
+}
+.i-tu p:nth-of-type(3) b{
+    margin-right: 37%;
+}
+.i-tu p b{
+    float: right;
+    display: table;
+    margin-right: 33%;
+}
+.i-tu p:nth-of-type(6){
+    font-size: 14px;
+}
+.jj{
+    display: table;
+    margin: auto;
+    margin-top: 20%;
+}
+.jj ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: table;
+}
+.jj ul li{
+    position: relative;
+    margin-top: -25%;
+}
+.jj ul li img{
+    width: 100%;
+}
+.jj ul li .x{
+    padding-left: 8%;
+}
+.edu{
+    display: table;
+    font-size: 12px;
+    width:38%;
+    position: absolute;
+    top: 6%;
+    left: 5%;
+}
+.book{
+    display: table;
+    font-size: 12px;
+    width:30%;
+    position: absolute;
+    top: 20%;
+    right:12%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.gr{
+    display: table;
+    font-size: 12px;
+    width:38%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.jn{
+    display: table;
+    font-size: 12px;
+    width:30%;
+    position: absolute;
+    top: 37%;
+    right:12%;
+
+}
+.yx{
+    display: table;
+    font-size: 16px;
+    width:38%;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    color: red;
+}
+.main{
+    width:60%;
+    margin: auto;
+    margin-top: 10%;
+    position: relative;
+}
+.row{
+    content: "";
+    clear: block;
+    display: table;
+    margin: 0px -2px;
+}
+.col-2{
+    width: 50%;
+    padding-left:2px;
+    padding-right: 2px;
+    float: left;
+    margin-bottom: 4px;
+
+}
+.col-2 img{
+    width: 100%;
+}
+.main p{
+    position:absolute;
+    bottom: -60%;
+    width: 100%;
+}
+.main p img{
+    width: 100%;
+}
+
+.foot{
+    width: 100%;
+    height: 100%;
+    background: url(../img/35.png) no-repeat 50% 55%;
+    -webkit-background-size: 350%;
+    background-size: 350%;
+}
+.f-font{
+    position: relative;
+    padding: 15% 5%;
+    display: block;
+}
+.f-font img{
+    display:inline-table;
+}
+.f-font img:nth-of-type(1){
+ display: block;
+ margin-bottom: 15px;
+}
+.f-font img:nth-of-type(2){
+    padding-left: 25px;
+    position: relative;
+    width: 50%;
+}
+.f-font img:nth-of-type(3){
+   position: absolute;
+   top: 60%;
+   padding-left:10px;
+    width: 45%;
+}
+.f-h{
+   position: absolute;
+   top: 28%;
+   left:18%;
+   display: table;
+}
+.f-foot{
+    width: 42%;
+    margin: auto;
+    padding: 2%;
+    margin-top: 15%;
+    background: url(../img/42.png) no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+.f-foot img{
+    width: 100%;
+}
+.foot p{
+    display: table;
+    margin: auto;
+    margin-top: 15%;
+}
