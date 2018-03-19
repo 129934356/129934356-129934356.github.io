@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#nav{
+    width:130px;
+    height: 750px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom:0;
+    top: 0;
+    margin: auto;
+}
+#nav li{
+    position: absolute;
+    list-style: none;
+    transition: 1s;
+    transform-origin: 25px 375px;//沿着一个点旋转
+}

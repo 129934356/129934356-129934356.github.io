@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main/flexible_css.js">
+    <link rel="stylesheet" href="dist/style.css">
+    <style>
+        header{
+            padding: 0px;
+            position: fixed;
+            width: 100%;
+            top:0;
+        }
+        .left{
+            margin-left: -0.875rem;
+        }
+        .left i{
+            border-left:solid 1px #000;
+            height:0.5rem;
+            padding-left: 0.1rem;
+        }
+        .left img{
+            height: 0.25rem;
+            width: auto;
+        }
+        .left a{
+            display: block;
+        }
+        #app1 .apptop {
+            padding-top: 2.65rem;
+            margin-bottom: 0.5rem;
+        }
+        .apptop span{
+            border-bottom: 1px #000 solid;
+        }
+        .apptop span:nth-of-type(1){
+            float: left;
+        }
+        .apptop span:nth-of-type(2){
+            float: right;
+        }
+        .apptop:after{
+            display: block;
+            content: "";
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<div class="HIS">
+    <header>
+        <div class="header-top">
+            <li id="li">2017/12/28-2018/1/2期间：购买CKP男士运动系列新品</li>
+        </div>
+        <div class="title-nav">
+            <ul>
+                <li class="list">
+
+                    <i>
+                        <img src="img/1 (1).png" alt="">
+                    </i>
+
+                </li>
+                <li>
+                    <i><img src="img/title-logo-mob.png" alt=""></i>
+                </li>
+                <li>
+                    <i><img src="img/1 (3).png" alt="" class="s"></i>
+                </li>
+                <li>
+                    <i><img src="img/1 (2).png" alt=""></i>
+                </li>
+                <li class="left">
+                    <a href="index.html">
+                        <i><img src="img/left.gif" alt=""></i>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </header>
+    <div class="HIS-main">
+        <div id="app1">
+            <div class="apptop">
+                <span>筛选</span><span>排序</span>
+            </div>
+            <ul>
+                <ck v-for="li in lifes"
+                    v-bind:img ="li.img"
+                    v-bind:qian ="li.qian"
+                    v-bind:meny ="li.meny"
+                    v-bind:title="li.title">
+                </ck>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!--//尾部-->
+    <footer>
+        <div class="fooder-e">
+            <span>请输入您的电子邮箱，获得CALVIN KLEIN最新消息</span>
+            <input type="text" placeholder="请输入您的邮箱地址" >
+            <span>关注我们</span>
+            <span><i></i>youku<i></i></span>
+        </div>
+    </footer>
+
+    <!-- 遮蔽层 -->
+    <div class="nav-bigbox">
+        <div class="goods-cate">
+            <div>
+                <p id="g-w">205W39NYC</p>
+                <p>男士</p>
+                <p>女士</p>
+                <p>内衣</p>
+                <p><span style="color: red">打折</span></p>
+            </div>
+            <p><a href="#">PROJECTS</a></p>
+            <p><a href="#">CALVIN KLEIN大事记</a></p>
+        </div>
+        <div id="show">
+            <div class="big1">
+                <h3 id="s-h"><i><<</i>205W39</h3>
+                <div class="big-nav">
+                    <a href="#">205W39NYC</a>
+                    <a href="#">RAF SINMONS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="bootstrap-3.2.0-dist/jquery-1.11.1.min.js"></script>
+<!--<script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>-->
+<script src="bootstrap-3.2.0-dist/swiper.js"></script>
+<script src="main/flexible.js"></script>
+<script src="dist/vue.min.js"></script>
+<script src="dist/vue.js"></script>
+<script src="dist/style.js"></script>
+</body>
+</html>
