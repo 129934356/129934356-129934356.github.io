@@ -220,6 +220,8 @@
             }
         }
         .mian-study {
+            padding-top: 30px;
+            padding-bottom: 30px;
             background-color: #619bb1;
             text-align: center;
             p {
@@ -229,6 +231,12 @@
             .study {
                 padding-top: 20px;
                 padding-bottom: 60px;
+            }
+            #canvas5{
+                margin-left: 24%;
+            }
+            #canvas4{
+                margin-left: -33%;
             }
         }
         .mian-slow {
@@ -252,9 +260,6 @@
                 img {
                     width: 100%;
                     height: 195px;
-                    //                transform:translateY(-195px);
-                    //                animation: a 5s infinite linear;
-
                 }
                 .box {
                     width: 100%;

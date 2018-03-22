@@ -137,7 +137,8 @@
         var ba = document.querySelector("#ba");
         var bi = document.querySelector("#bgi");
         window.onscroll = function(){
-            var scrolltop =  ba.scrollTop;
+            // var scrolltop =  ba.scrollTop;
+            var scrolltop = document.documentElement.scrollTop||document.body.scrollTop;;
             if(scrolltop>900){
                 bi.style.backgroundImage = "url('img/l-18.jpg')";
                 bi.style.top =110+"px";

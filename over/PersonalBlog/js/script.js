@@ -78,9 +78,11 @@ var l = 0;
 var l1= 1;
   function mo(){
     if(l==0){
-	new Progress().renderOne('canvas7',100,5,40);
-	new Progress().renderOne('canvas8',100,5,60);
-	new Progress().renderOne('canvas9',100,5,70);
+	new Progress().renderOne('canvas7',100,6,45);
+	new Progress().renderOne('canvas8',100,6,60);
+	new Progress().renderOne('canvas9',100,6,70);
+	new Progress().renderOne('canvas4',100,6,40);
+	new Progress().renderOne('canvas5',100,6,65);
     l++;
     }else{
         
@@ -101,7 +103,8 @@ var l1= 1;
              
          //滚动条的高度是多少？（获取出来）c
          
-         var c = document.body.scrollTop;
+         // var c = document.body.scrollTop;
+         var c = document.documentElement.scrollTop||document.body.scrollTop;
 //         
          
          if(a < b + c){
@@ -130,7 +133,7 @@ var l1= 1;
                 if (i >= percent) {
                     clearInterval(interval)
                 }
-            }, 10)
+            }, 40)
         }
         , render: function (context, length, r, i, percent) {
             context.clearRect(0, 0, length, length);

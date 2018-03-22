@@ -186,6 +186,8 @@
         color: aliceblue;
         text-decoration: none; }
   .home .mian .mian-study {
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #619bb1;
     text-align: center; }
     .home .mian .mian-study p {
@@ -194,6 +196,10 @@
     .home .mian .mian-study .study {
       padding-top: 20px;
       padding-bottom: 60px; }
+    .home .mian .mian-study #canvas5 {
+      margin-left: 24%; }
+    .home .mian .mian-study #canvas4 {
+      margin-left: -33%; }
   .home .mian .mian-slow {
     background-color: #3f639f; }
     .home .mian .mian-slow .t {
