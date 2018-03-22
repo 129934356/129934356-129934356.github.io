@@ -229,9 +229,12 @@ a:hover{
 }
 
 .services{
+  height: 100%;
 .main{
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 6%;
+  padding-bottom:6%;
+  //padding-top: 60px;
+  //padding-bottom: 60px;
   img{
     width: 100%;
   }
@@ -250,9 +253,11 @@ a:hover{
 
 }
   .feugiat{
-    padding-top: 50px;
+    padding-top: 6%;
+    padding-bottom:6%;
     background-color: #F6F6F6;
-    padding-bottom: 50px;
+
+
     h2{
       font-size: 0.36rem;
       margin-bottom: 20px;
@@ -294,8 +299,8 @@ a:hover{
   }
   .main{
     display: block;
-    padding-bottom: 60px;
-    padding-top: 60px;
+    padding-bottom:6%;
+    padding-top:6%;
     h3{
       font-size: 0.4rem;
       color: #333;

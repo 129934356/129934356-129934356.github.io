@@ -180,36 +180,35 @@ a:hover {
   .about .tes h2 {
     margin-bottom: 30px; }
 
-.services .main {
-  padding-top: 60px;
-  padding-bottom: 60px; }
-  .services .main img {
-    width: 100%; }
-  .services .main h2 {
-    font-size: 0.5rem; }
-  .services .main p a {
-    font-size: 0.24rem;
-    color: #000; }
-  .services .main p a:hover {
-    color: #A4DE54; }
-
-.services .feugiat {
-  padding-top: 50px;
-  background-color: #F6F6F6;
-  padding-bottom: 50px; }
-  .services .feugiat h2 {
-    font-size: 0.36rem;
-    margin-bottom: 20px; }
-
-.services .row {
-  margin-right: -2px;
-  margin-left: -2px; }
-
-.services .col-md-4, .services .col-xs-4 {
-  padding-right: 2px;
-  padding-left: 2px; }
-  .services .col-md-4 img, .services .col-xs-4 img {
-    margin-bottom: 5px; }
+.services {
+  height: 100%; }
+  .services .main {
+    padding-top: 6%;
+    padding-bottom: 6%; }
+    .services .main img {
+      width: 100%; }
+    .services .main h2 {
+      font-size: 0.5rem; }
+    .services .main p a {
+      font-size: 0.24rem;
+      color: #000; }
+    .services .main p a:hover {
+      color: #A4DE54; }
+  .services .feugiat {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    background-color: #F6F6F6; }
+    .services .feugiat h2 {
+      font-size: 0.36rem;
+      margin-bottom: 20px; }
+  .services .row {
+    margin-right: -2px;
+    margin-left: -2px; }
+  .services .col-md-4, .services .col-xs-4 {
+    padding-right: 2px;
+    padding-left: 2px; }
+    .services .col-md-4 img, .services .col-xs-4 img {
+      margin-bottom: 5px; }
 
 .gallery .main {
   padding-top: 60px;
@@ -226,8 +225,8 @@ a:hover {
 
 .contact .main {
   display: block;
-  padding-bottom: 60px;
-  padding-top: 60px; }
+  padding-bottom: 6%;
+  padding-top: 6%; }
   .contact .main h3 {
     font-size: 0.4rem;
     color: #333;
